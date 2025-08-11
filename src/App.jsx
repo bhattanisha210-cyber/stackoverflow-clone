@@ -3,8 +3,9 @@ import './App.css';
 import Footer from './component/Footer';
 import Header from './component/Header';
 import Main from './component/Main/Main';
-import Login from './component/login';
-
+/* import Login from './component/Login';
+import Register from '.component/Register';
+ */
 
 
 
@@ -16,7 +17,8 @@ function App() {
     <>
     <Header/>
     <Main/>
-    <Login/>
+    {/* <Login/>
+    <Register/> */}
     <Footer/>
     </>
   );

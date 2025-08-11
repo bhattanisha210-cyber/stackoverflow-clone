@@ -1,8 +1,21 @@
+
+import { useEffect, useState } from "react";
+import mockQuetion from "../../data/mockQuestions";
+import Card from "../../common/card";
+
 export default function Main() {
+    const [questions, setQuestions] = useState([]);
+    useEffect(() => {
+        setQuestions(mockQuetion)
+    }, [])
+
     return (
         <>
-        <h2>Main content Area</h2>
-        <p>This is where the main content of the application will be displayed</p>
+            {questions.map((question) => (
+                <Card key={question.id} {...question} />
+            ))
+
+            }
         </>
     );
 }

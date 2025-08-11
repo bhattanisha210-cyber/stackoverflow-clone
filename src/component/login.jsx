@@ -1,16 +1,11 @@
-export default function Login() {
-return (
+/* export default function login(){
+    return(
 <>
-    <form>
-        Email:<input type="email" />
-        password:<input typr="password"/>
-        <button type="submit">login</button>
-    </form>
-
-
-
+<form>
+    email:<input type="email"/>
+    password:<input type="password"/>
+    <button type="submit"></button>
+</form>
 </>
-);
-
-
-}
+    );
+} */
