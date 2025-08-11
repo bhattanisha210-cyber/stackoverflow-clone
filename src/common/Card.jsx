@@ -1,4 +1,4 @@
- export default function Card({ question, creator, createDate, tags }) {
+  export default function Card({ question, creator, createDate, tags }) {
   return (
     <div className="bg-white shadow-md rounded-lg p-6 mb-6">
       <h2 className="text-xl font-semibold mb-2">{question}</h2>
@@ -13,4 +13,3 @@
     </div>
   );
 } 
- 

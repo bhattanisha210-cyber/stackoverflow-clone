@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 import mockQuetion from "../../data/mockQuestions";
-import Card from "../../common/card";
+import Card from "../../common/Card";
 
 export default function Main() {
     const [questions, setQuestions] = useState([]);
