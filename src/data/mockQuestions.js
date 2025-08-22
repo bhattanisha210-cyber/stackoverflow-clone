@@ -1,29 +1,40 @@
-// mockQuestion.js
 
 const mockQuestions = [
   {
-    id: 1,
-    question: "What is the default block size in HDFS for Hadoop 2.x?",
-    creator: "Alice Johnson",
-    createDate: "2025-08-01",
-    tags: ["Hadoop", "HDFS", "Big Data"]
+  id: 1,
+    question: "How do I fix the 'Module not found' error in React?",
+    creator: "Jane Doe",
+    tags: ["react", "javascript", "webpack"],
+    createdDate: "Aug 11, 2025",
   },
   {
     id: 2,
-    question: "How does the Shuffle and Sort phase work in MapReduce?",
-    creator: "Brian Lee",
-    createDate: "2025-08-02",
-    tags: ["MapReduce", "Data Processing"]
+    question: "What is the difference between let, const, and var in JavaScript?",
+    creator: "John Smith",
+    tags: ["javascript", "variables", "es6"],
+    createdDate: "Aug 9, 2025",
   },
-  
-  
   {
-    id: 5,
-    question: "What is the role of NameNode in HDFS?",
-    creator: "Emily Davis",
-    createDate: "2025-08-05",
-    tags: ["HDFS", "NameNode", "Architecture"]
-  }
+    id: 3,
+    question: "How can I optimize a SQL query with multiple joins?",
+    creator: "Alex Kim",
+    tags: ["sql", "database", "performance"],
+    createdDate: "Aug 5, 2025",
+  },
+  {
+    id: 4,
+    question: "What’s the best way to center a div using CSS?",
+    creator: "Maria Lopez",
+    tags: ["css", "flexbox", "html"],
+    createdDate: "Aug 1, 2025",
+  },
+  {
+  id: 5,
+    question: "How do I handle API errors gracefully in Node.js?",
+    creator: "David Chen",
+    tags: ["node.js", "error-handling", "api"],
+    createdDate: "Jul 29, 2025",
+  },
 ];
 
 export default mockQuestions;

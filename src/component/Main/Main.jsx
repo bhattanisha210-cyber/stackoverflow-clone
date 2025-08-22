@@ -1,12 +1,13 @@
 
-import { useEffect, useState } from "react";
-import mockQuetion from "../../data/mockQuestions";
+ import { useEffect, useState } from "react";
+import mockQuestions from "../../data/mockQuestions";
 import Card from "../../common/Card";
+
 
 export default function Main() {
     const [questions, setQuestions] = useState([]);
     useEffect(() => {
-        setQuestions(mockQuetion)
+        setQuestions(mockQuestions);
     }, [])
 
     return (
@@ -18,4 +19,8 @@ export default function Main() {
             }
         </>
     );
-}
+}  
+
+ 
+
+ 
